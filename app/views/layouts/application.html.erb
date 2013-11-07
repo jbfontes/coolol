@@ -7,8 +7,16 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<%= link_to "Home", root_path %>
+	<%= link_to "Coolol Sounds", coololsounds_path %>
+	<%= link_to "Trending Sounds", trendingsounds_path %>
+	<%= link_to "Hot Coolols", hotcoolols_path %>
+	<%= link_to "Trending Pics", trendingpics_path %>
+	<%= link_to "Login", login_path %>
+	<%= link_to "Sign Up", signup_path %>
+	<%= link_to "About", about_path %>
 
-<%= yield %>
+	<%= yield %>
 
 </body>
 </html>

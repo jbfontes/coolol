@@ -1,4 +1,12 @@
 Coolol::Application.routes.draw do
+  root "pages#home"
+  get "coololsounds" => "pages#coololsounds"
+  get "trendingsounds" => "pages#trendingsounds"
+  get "hotcoolols" => "pages#hotcoolols"
+  get "trendingpics" => "pages#trendingpics"
+  get "login" => "pages#login"
+  get "signup" => "pages#signup"
+  get "about" => "pages#about"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
