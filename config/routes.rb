@@ -1,4 +1,5 @@
 Coolol::Application.routes.draw do
+  devise_for :users
   root "pages#home"
   get "coololsounds" => "pages#coololsounds"
   get "trendingsounds" => "pages#trendingsounds"
